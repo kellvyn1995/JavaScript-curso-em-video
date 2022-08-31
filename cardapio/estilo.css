@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'vital';
+    src: url('fontes/Wonderful_Day.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    /*
+        Tipos de format()
+        - opentype (otf)
+        - truetype (ttf)
+    */
+}
+@font-face {
+    font-family: 'gastronomia';
+    src: url('fontes/Roman SD.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    /*
+        Tipos de format()
+        - opentype (otf)
+        - truetype (ttf)
+    */
+}
+@font-face {
+    font-family: 'Natural';
+    src: url('fontes/Natural.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    /*
+        Tipos de format()
+        - opentype (otf)
+        - truetype (ttf)
+    */
+}
+body{
+    background-color: rgb(70, 142, 236);
+    font: normal 15pt Arial;
+}
+
+header{
+    color: white; /*cor do texto*/
+    text-align: center; /*centralizando texto*/
+}
+
+section{
+    background: white; /*cor de fundo*/
+    border-radius: 10px; /*bordas arredondadas*/
+    padding: 15px; /*espaçamento interno*/
+    width: auto; /* largura*/
+    max-width: 800px; /* largura maxima*/
+    margin: auto; /* centraliza*/
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.582); /*efeito de sombra: deslocamento lateral,vertical,espalhamneto,cor*/
+}
+.vital{
+    font-family: 'vital'; /*usando a fonte adicinada*/
+    font-size: 100px; /*tamanho da fonte*/
+    margin-top: 2px; /*negativo por causa do formato da fonte*/
+}
+.gastronomia{
+    font-family: 'gastronomia'; /*nome da fonte*/
+    text-align: center; /*centralizando*/
+    font-size: 25px; /*tamanho da fonte*/
+    margin-top: -30mm; /*negativo por causa do formato da fonte*/
+
+}
+.natural{
+    font-family: 'gastronomia';
+}
+
+div#opcao{
+    text-align: center;
+    width:100%;
+    font-size: 15px;
+    
+}
+.interno{
+    font-family: 'Natural';
+    font-size: 30px;
+    margin-top: 12px; /*negativo por causa do formato da fonte*/
+}
+div#but{
+    text-align: center;
+    margin-top: 10px;
+}
+div#foto{
+    text-align: center;
+    padding: 10px; /*espaçamento interno*/
+}
+
+footer{
+    color: white; /*cor do texto*/
+    text-align: center; /*centralizando texto*/
+}

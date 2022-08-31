@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(70, 142, 236);
+    font: normal 15pt Arial;
+}
+
+header{
+    color: white; /*cor do texto*/
+    text-align: center; /*centralizando texto*/
+}
+
+section{
+    background: white; /*cor de fundo*/
+    border-radius: 10px; /*bordas arredondadas*/
+    padding: 15px; /*espaçamento interno*/
+    width: 500px; /* largura*/
+    margin: auto; /* centraliza*/
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.582); /*efeito de sombra: deslocamento lateral,vertical,espalhamneto,cor*/
+}
+div#msg{
+    text-align: center;
+    padding: 10px; /*espaçamento interno*/
+}
+div#foto{
+    text-align: center;
+    padding: 10px; /*espaçamento interno*/
+}
+
+footer{
+    color: white; /*cor do texto*/
+    text-align: center; /*centralizando texto*/
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos DOM</title>
+</head>
+<body>
+    <!-- DOM é um acronimo para  Document Object Model -->
+    usando a extenção Live serve do visual code
+    <h1>Iniciando estudos em DOM</h1>
+    <p>aqui vai o resultado</p>
+    <p>Aprenda a usar <strong>DOM</strong> em JavaScrip</p>
+    <div class="">clique em mim</div>
+    <script>
+        var p0 = window.document.getElementsByTagName('p')[0] //pegando o paragrafor de posição 0, caso não tenha uma posição definida estara selecionando todos os paragrafos
+        var p1 = window.document.getElementsByTagName('p')[1]
+        window.document.write('Está escrito assim:'+ p0.innerText + p1.innerText)  
+        p1.style.color = "blue" // modificando a cor do paragrafo 
+        p0.style.color = "red" // modificando a cor do paragrafo 
+        var corpo = window.document.body // modificando a cor de fundo
+        // corpo.style.background = 'black'
+    </script>
+
+    <h1>Pequenos teste</h1>
+    <p id="pr1">esse agora vai ser por id</p>
+    <script>
+        var p2 = window.document.getElementById('pr1')
+        p2.style.background = 'green'
+        p2.innerText = 'estou aguardando...' // mudando a informção do texto
+        // pode ser utilizado o camndo getElemntByName no lugar de usar o id utiliza o nome do campo por exemplo
+    </script>
+
+    <div class="classeteste">
+        <h1>Pequeno teste</h1>
+        <p id="pr2">agora utilizando o select</p>
+    </div>
+    <script>
+        var p3 = window.document.querySelector('div.classeteste') // toda div e representada por um # toda classe e representada por uma .
+        p3.style.color = 'red'
+
+    </script>
+</body>
+</html>

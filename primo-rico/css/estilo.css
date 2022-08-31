@@ -1,0 +1,68 @@
+.body{
+    background-color: rgb(108, 120, 102);
+    color: white;
+}
+.fotoPrimo{
+justify-content: center;
+}
+.FPrimo{
+    margin-top: 25px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    /*centralizar imagem*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /**/
+}
+.gaste{
+    text-align: center;
+    padding: 20px;
+}
+.Fortuna{
+    background-color: black;
+    height: 60px;
+    border-radius: 50px;
+}
+.Fortuna h1{
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+
+
+
+.conteudo{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+.carde{
+    margin-top: 50px;
+}
+.produtos{
+    padding: 50px;
+}
+.titulo h3{ 
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+.imgProduto{
+    width: 100%;
+    height: 100%;
+}
+.foto{
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.but{
+    text-align: center;
+    padding: 20px;
+}
